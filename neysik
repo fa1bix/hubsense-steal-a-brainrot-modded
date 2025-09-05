@@ -1,0 +1,1143 @@
+loadstring([=[
+local NFBDyH = game:GetService(string.char(78,70,66,68,121,72))
+local MWJMfD = game:GetService(string.char(77,87,74,77,102,68))
+local rQrMSV = game:GetService(string.char(114,81,114,77,83,86))
+local MyozVX = game:GetService(string.char(77,121,111,122,86,88))
+local YEXsRQ = rQrMSV.LocalPlayer
+
+local hdTGLl = Instance.new(string.char(83,99,114,101,101,110,71,117,105))
+hdTGLl.Name = string.char(72,117,98,115,101,110,115,101,77,101,110,117)
+hdTGLl.ResetOnSpawn = false
+hdTGLl.IgnoreGuiInset = true
+hdTGLl.Parent = YEXsRQ:WaitForChild(string.char(80,108,97,121,101,114,71,117,105))
+
+
+local JYyIMe = Instance.new(string.char(70,114,97,109,101))
+JYyIMe.AnchorPoint = Vector2.new(0.5, 0.5)
+JYyIMe.Position = UDim2.fromScale(0.5, 0.5)
+JYyIMe.Size = UDim2.fromOffset(300, 250) 
+JYyIMe.BackgroundTransparency = 1
+JYyIMe.Visible = true
+JYyIMe.Parent = hdTGLl
+
+local CeZWnn = Instance.new(string.char(70,114,97,109,101))
+CeZWnn.Size = UDim2.fromScale(1, 1)
+CeZWnn.BackgroundColor3 = Color3.fromRGB(15, 15, 20)
+CeZWnn.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), CeZWnn).CornerRadius = UDim.new(0, 12)
+
+local oCHvwV = Instance.new(string.char(85,73,83,116,114,111,107,101))
+oCHvwV.Color = Color3.fromRGB(0, 255, 150)
+oCHvwV.Thickness = 2
+oCHvwV.Transparency = 0.4
+oCHvwV.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+local oPoaFQ = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+oPoaFQ.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+oPoaFQ.Rotation = 45
+oPoaFQ.Parent = oCHvwV
+oCHvwV.Parent = CeZWnn
+CeZWnn.Parent = JYyIMe
+
+
+local LksvHX = Instance.new(string.char(70,114,97,109,101))
+LksvHX.Size = UDim2.new(1, 0, 0, 40)
+LksvHX.BackgroundTransparency = 1
+LksvHX.Parent = CeZWnn
+
+local GXiahg = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+GXiahg.BackgroundTransparency = 1
+GXiahg.Text = string.char(69,110,116,101,114,32,75,101,121)
+GXiahg.Font = Enum.Font.GothamBold
+GXiahg.TextSize = 18
+GXiahg.TextColor3 = Color3.fromRGB(240, 240, 245)
+GXiahg.TextTransparency = 0
+GXiahg.TextXAlignment = Enum.TextXAlignment.Left
+GXiahg.Size = UDim2.new(1, -12, 1, 0)
+GXiahg.Position = UDim2.new(0, 12, 0, 0)
+GXiahg.Parent = LksvHX
+
+
+local jpPYtD = Instance.new(string.char(70,114,97,109,101))
+jpPYtD.Size = UDim2.new(1, -24, 1, -56)
+jpPYtD.Position = UDim2.new(0, 12, 0, 48)
+jpPYtD.BackgroundTransparency = 1
+jpPYtD.Parent = CeZWnn
+
+
+local NvFkjk = Instance.new(string.char(84,101,120,116,66,111,120))
+NvFkjk.Size = UDim2.new(1, -24, 0, 30)
+NvFkjk.Position = UDim2.new(0, 12, 0, 20)
+NvFkjk.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+NvFkjk.Text = string.char()
+NvFkjk.Font = Enum.Font.Gotham
+NvFkjk.TextSize = 16
+NvFkjk.TextColor3 = Color3.fromRGB(240, 240, 245)
+NvFkjk.PlaceholderText = string.char(69,110,116,101,114,32,107,101,121,32,104,101,114,101,46,46,46)
+Instance.new(string.char(85,73,67,111,114,110,101,114), NvFkjk).CornerRadius = UDim.new(0, 8)
+local OzsCeL = Instance.new(string.char(85,73,83,116,114,111,107,101))
+OzsCeL.Color = Color3.fromRGB(0, 255, 150)
+OzsCeL.Thickness = 1.2
+OzsCeL.Transparency = 0.8
+OzsCeL.Parent = NvFkjk
+NvFkjk.Parent = jpPYtD
+
+
+local ttUUgP = Instance.new(string.char(70,114,97,109,101))
+ttUUgP.Size = UDim2.new(1, 0, 0, 30)
+ttUUgP.Position = UDim2.new(0, 0, 0, 60)
+ttUUgP.BackgroundTransparency = 1
+ttUUgP.Parent = jpPYtD
+
+local wyBSde = Instance.new(string.char(73,109,97,103,101,66,117,116,116,111,110))
+wyBSde.Size = UDim2.fromOffset(24, 24)
+wyBSde.Position = UDim2.new(0, 12, 0, 3)
+wyBSde.BackgroundTransparency = 1
+wyBSde.Image = string.char(114,98,120,97,115,115,101,116,105,100,58,47,47,52,52,56,51,51,52,53,57,57,56)
+wyBSde.Parent = ttUUgP
+
+local cceCdO = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+cceCdO.Size = UDim2.new(1, -48, 1, 0)
+cceCdO.Position = UDim2.new(0, 40, 0, 0)
+cceCdO.BackgroundTransparency = 1
+cceCdO.Font = Enum.Font.Gotham
+cceCdO.TextSize = 14
+cceCdO.TextXAlignment = Enum.TextXAlignment.Left
+cceCdO.TextColor3 = Color3.fromRGB(220, 220, 230)
+cceCdO.TextTransparency = 0
+cceCdO.Text = string.char(100,105,115,99,111,114,100,46,103,103,47,88,68,53,87,78,115,70,70,116,66)
+cceCdO.Parent = ttUUgP
+
+
+local iflVhp = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+iflVhp.Size = UDim2.new(1, 0, 0, 20)
+iflVhp.Position = UDim2.new(0, 0, 0, 100) 
+iflVhp.BackgroundTransparency = 1
+iflVhp.Font = Enum.Font.Gotham
+iflVhp.TextSize = 14
+iflVhp.TextColor3 = Color3.fromRGB(255, 100, 100)
+iflVhp.Text = string.char()
+iflVhp.Parent = jpPYtD
+
+
+local VioIDP = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+VioIDP.Size = UDim2.new(1, -24, 0, 30)
+VioIDP.Position = UDim2.new(0, 12, 0, 130) 
+VioIDP.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+VioIDP.Text = string.char(83,117,98,109,105,116)
+VioIDP.Font = Enum.Font.GothamBold
+VioIDP.TextSize = 14
+VioIDP.TextColor3 = Color3.fromRGB(240, 240, 245)
+Instance.new(string.char(85,73,67,111,114,110,101,114), VioIDP).CornerRadius = UDim.new(0, 8)
+local oeKwij = Instance.new(string.char(85,73,83,116,114,111,107,101))
+oeKwij.Color = Color3.fromRGB(0, 255, 150)
+oeKwij.Thickness = 1.2
+oeKwij.Transparency = 0.8
+oeKwij.Parent = VioIDP
+local VvWeKO = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+VvWeKO.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+VvWeKO.Rotation = 45
+VvWeKO.Parent = oeKwij
+VioIDP.Parent = jpPYtD
+
+
+local masyKh = Instance.new(string.char(70,114,97,109,101))
+masyKh.AnchorPoint = Vector2.new(0.5, 0.5)
+masyKh.Position = UDim2.fromScale(0.5, 0.5)
+masyKh.Size = UDim2.fromOffset(400, 420)
+masyKh.BackgroundTransparency = 1
+masyKh.Visible = false
+masyKh.Parent = hdTGLl
+local uPauea = Instance.new(string.char(70,114,97,109,101))
+uPauea.Size = UDim2.fromScale(1, 1)
+uPauea.BackgroundColor3 = Color3.fromRGB(15, 15, 20)
+uPauea.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), uPauea).CornerRadius = UDim.new(0, 12)
+local WOWzyM = Instance.new(string.char(85,73,83,116,114,111,107,101))
+WOWzyM.Color = Color3.fromRGB(0, 255, 150)
+WOWzyM.Thickness = 2
+WOWzyM.Transparency = 0.4
+WOWzyM.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+local zbYEFc = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+zbYEFc.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+zbYEFc.Rotation = 45
+zbYEFc.Parent = WOWzyM
+WOWzyM.Parent = uPauea
+uPauea.Parent = masyKh
+
+local klmTiP = Instance.new(string.char(70,114,97,109,101))
+klmTiP.Size = UDim2.new(1, 0, 0, 40)
+klmTiP.BackgroundTransparency = 1
+klmTiP.Parent = uPauea
+local XAYMzr = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+XAYMzr.BackgroundTransparency = 1
+XAYMzr.Text = string.char(72,117,98,115,101,110,115,101,32,77,101,110,117)
+XAYMzr.Font = Enum.Font.GothamBold
+XAYMzr.TextSize = 18
+XAYMzr.TextColor3 = Color3.fromRGB(240, 240, 245)
+XAYMzr.TextTransparency = 0
+XAYMzr.TextXAlignment = Enum.TextXAlignment.Left
+XAYMzr.Size = UDim2.new(1, -12, 1, 0)
+XAYMzr.Position = UDim2.new(0, 12, 0, 0)
+XAYMzr.Parent = klmTiP
+
+local HBXKoI = Instance.new(string.char(70,114,97,109,101))
+HBXKoI.Size = UDim2.new(1, -24, 1, -56)
+HBXKoI.Position = UDim2.new(0, 12, 0, 48)
+HBXKoI.BackgroundTransparency = 1
+HBXKoI.Parent = uPauea
+
+local wmDaSF = Instance.new(string.char(70,114,97,109,101))
+wmDaSF.Size = UDim2.new(1, 0, 0, 270)
+wmDaSF.BackgroundColor3 = Color3.fromRGB(25, 25, 30)
+wmDaSF.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), wmDaSF).CornerRadius = UDim.new(0, 8)
+wmDaSF.Position = UDim2.new(0, 0, 0, 8)
+wmDaSF.Parent = HBXKoI
+
+local pTiyVR = Instance.new(string.char(70,114,97,109,101))
+pTiyVR.Size = UDim2.fromOffset(40, 20)
+pTiyVR.Position = UDim2.new(0, 12, 0, 10)
+pTiyVR.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+pTiyVR.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), pTiyVR).CornerRadius = UDim.new(1, 0)
+local qxoJSn = Instance.new(string.char(85,73,83,116,114,111,107,101))
+qxoJSn.Color = Color3.fromRGB(0, 255, 150)
+qxoJSn.Thickness = 1.2
+qxoJSn.Transparency = 0.8
+qxoJSn.Parent = pTiyVR
+pTiyVR.Parent = wmDaSF
+local sNAWFx = Instance.new(string.char(70,114,97,109,101))
+sNAWFx.Size = UDim2.fromOffset(16, 16)
+sNAWFx.Position = UDim2.new(0, 2, 0.5, -8)
+sNAWFx.BackgroundColor3 = Color3.fromRGB(240, 240, 245)
+sNAWFx.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), sNAWFx).CornerRadius = UDim.new(1, 0)
+local EoJWAR = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+EoJWAR.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+EoJWAR.Rotation = 45
+EoJWAR.Parent = sNAWFx
+local VtZyXS = Instance.new(string.char(85,73,83,116,114,111,107,101))
+VtZyXS.Color = Color3.fromRGB(0, 150, 100)
+VtZyXS.Thickness = 1.2
+VtZyXS.Transparency = 0.5
+VtZyXS.Parent = sNAWFx
+sNAWFx.Parent = pTiyVR
+
+local ExPldn = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+ExPldn.Size = UDim2.new(1, -76, 0, 20)
+ExPldn.Position = UDim2.new(0, 56, 0, 10)
+ExPldn.BackgroundTransparency = 1
+ExPldn.Font = Enum.Font.Gotham
+ExPldn.TextSize = 16
+ExPldn.TextXAlignment = Enum.TextXAlignment.Left
+ExPldn.TextColor3 = Color3.fromRGB(220, 220, 230)
+ExPldn.TextTransparency = 0
+ExPldn.Text = string.char(83,112,101,101,100,58,32,50,56)
+ExPldn.Parent = wmDaSF
+
+local PDCOEr = Instance.new(string.char(70,114,97,109,101))
+PDCOEr.Size = UDim2.new(1, -24, 0, 6)
+PDCOEr.Position = UDim2.new(0, 12, 0, 44)
+PDCOEr.BackgroundColor3 = Color3.fromRGB(50, 50, 60)
+PDCOEr.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), PDCOEr).CornerRadius = UDim.new(0, 3)
+PDCOEr.Parent = wmDaSF
+local oUYnfD = Instance.new(string.char(70,114,97,109,101))
+oUYnfD.Size = UDim2.new(0.08, 0, 1, 0) 
+oUYnfD.BackgroundColor3 = Color3.fromRGB(0, 255, 150)
+oUYnfD.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), oUYnfD).CornerRadius = UDim.new(0, 3)
+local PErPDi = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+PErPDi.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+PErPDi.Rotation = 45
+PErPDi.Parent = oUYnfD
+oUYnfD.Parent = PDCOEr
+local HaMVcu = Instance.new(string.char(70,114,97,109,101))
+HaMVcu.Size = UDim2.fromOffset(12, 12)
+HaMVcu.AnchorPoint = Vector2.new(0.5, 0.5)
+HaMVcu.Position = UDim2.new(oUYnfD.Size.X.Scale, 0, 0.5, 0)
+HaMVcu.BackgroundColor3 = Color3.fromRGB(240, 240, 245)
+HaMVcu.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), HaMVcu).CornerRadius = UDim.new(1, 0)
+local XTCZXM = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+XTCZXM.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+XTCZXM.Rotation = 45
+XTCZXM.Parent = HaMVcu
+HaMVcu.Parent = PDCOEr
+
+local PbaRyw = Instance.new(string.char(70,114,97,109,101))
+PbaRyw.Size = UDim2.fromOffset(40, 20)
+PbaRyw.Position = UDim2.new(0, 12, 0, 80)
+PbaRyw.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+PbaRyw.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), PbaRyw).CornerRadius = UDim.new(1, 0)
+local aYABVz = Instance.new(string.char(85,73,83,116,114,111,107,101))
+aYABVz.Color = Color3.fromRGB(0, 255, 150)
+aYABVz.Thickness = 1.2
+aYABVz.Transparency = 0.8
+aYABVz.Parent = PbaRyw
+PbaRyw.Parent = wmDaSF
+local ABrdRM = Instance.new(string.char(70,114,97,109,101))
+ABrdRM.Size = UDim2.fromOffset(16, 16)
+ABrdRM.Position = UDim2.new(0, 2, 0.5, -8)
+ABrdRM.BackgroundColor3 = Color3.fromRGB(240, 240, 245)
+ABrdRM.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), ABrdRM).CornerRadius = UDim.new(1, 0)
+local zDuQfX = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+zDuQfX.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+zDuQfX.Rotation = 45
+zDuQfX.Parent = ABrdRM
+local jsXqKf = Instance.new(string.char(85,73,83,116,114,111,107,101))
+jsXqKf.Color = Color3.fromRGB(0, 150, 100)
+jsXqKf.Thickness = 1.2
+jsXqKf.Transparency = 0.5
+jsXqKf.Parent = ABrdRM
+ABrdRM.Parent = PbaRyw
+
+local qMRzmj = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+qMRzmj.Size = UDim2.new(1, -76, 0, 20)
+qMRzmj.Position = UDim2.new(0, 56, 0, 80)
+qMRzmj.BackgroundTransparency = 1
+qMRzmj.Font = Enum.Font.Gotham
+qMRzmj.TextSize = 16
+qMRzmj.TextXAlignment = Enum.TextXAlignment.Left
+qMRzmj.TextColor3 = Color3.fromRGB(220, 220, 230)
+qMRzmj.TextTransparency = 0
+qMRzmj.Text = string.char(78,111,99,108,105,112,58,32,79,102,102)
+qMRzmj.Parent = wmDaSF
+
+local VIbbGf = Instance.new(string.char(70,114,97,109,101))
+VIbbGf.Size = UDim2.fromOffset(40, 20)
+VIbbGf.Position = UDim2.new(0, 12, 0, 110)
+VIbbGf.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+VIbbGf.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), VIbbGf).CornerRadius = UDim.new(1, 0)
+local DudWfG = Instance.new(string.char(85,73,83,116,114,111,107,101))
+DudWfG.Color = Color3.fromRGB(0, 255, 150)
+DudWfG.Thickness = 1.2
+DudWfG.Transparency = 0.8
+DudWfG.Parent = VIbbGf
+VIbbGf.Parent = wmDaSF
+local yrBhIu = Instance.new(string.char(70,114,97,109,101))
+yrBhIu.Size = UDim2.fromOffset(16, 16)
+yrBhIu.Position = UDim2.new(0, 2, 0.5, -8)
+yrBhIu.BackgroundColor3 = Color3.fromRGB(240, 240, 245)
+yrBhIu.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), yrBhIu).CornerRadius = UDim.new(1, 0)
+local DGdTNP = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+DGdTNP.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+DGdTNP.Rotation = 45
+DGdTNP.Parent = yrBhIu
+local GHwjfS = Instance.new(string.char(85,73,83,116,114,111,107,101))
+GHwjfS.Color = Color3.fromRGB(0, 150, 100)
+GHwjfS.Thickness = 1.2
+GHwjfS.Transparency = 0.5
+GHwjfS.Parent = yrBhIu
+yrBhIu.Parent = VIbbGf
+
+local CjuNeJ = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+CjuNeJ.Size = UDim2.new(1, -76, 0, 20)
+CjuNeJ.Position = UDim2.new(0, 56, 0, 110)
+CjuNeJ.BackgroundTransparency = 1
+CjuNeJ.Font = Enum.Font.Gotham
+CjuNeJ.TextSize = 16
+CjuNeJ.TextXAlignment = Enum.TextXAlignment.Left
+CjuNeJ.TextColor3 = Color3.fromRGB(220, 220, 230)
+CjuNeJ.TextTransparency = 0
+CjuNeJ.Text = string.char(73,110,102,32,74,117,109,112,58,32,79,102,102)
+CjuNeJ.Parent = wmDaSF
+
+local erelQv = Instance.new(string.char(70,114,97,109,101))
+erelQv.Size = UDim2.fromOffset(40, 20)
+erelQv.Position = UDim2.new(0, 12, 0, 140)
+erelQv.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+erelQv.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), erelQv).CornerRadius = UDim.new(1, 0)
+local IyfwKs = Instance.new(string.char(85,73,83,116,114,111,107,101))
+IyfwKs.Color = Color3.fromRGB(0, 255, 150)
+IyfwKs.Thickness = 1.2
+IyfwKs.Transparency = 0.8
+IyfwKs.Parent = erelQv
+erelQv.Parent = wmDaSF
+local lNKoDr = Instance.new(string.char(70,114,97,109,101))
+lNKoDr.Size = UDim2.fromOffset(16, 16)
+lNKoDr.Position = UDim2.new(0, 2, 0.5, -8)
+lNKoDr.BackgroundColor3 = Color3.fromRGB(240, 240, 245)
+lNKoDr.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), lNKoDr).CornerRadius = UDim.new(1, 0)
+local ApvBzi = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+ApvBzi.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+ApvBzi.Rotation = 45
+ApvBzi.Parent = lNKoDr
+local hDcwuo = Instance.new(string.char(85,73,83,116,114,111,107,101))
+hDcwuo.Color = Color3.fromRGB(0, 150, 100)
+hDcwuo.Thickness = 1.2
+hDcwuo.Transparency = 0.5
+hDcwuo.Parent = lNKoDr
+lNKoDr.Parent = erelQv
+
+local nyhlrL = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+nyhlrL.Size = UDim2.new(1, -76, 0, 20)
+nyhlrL.Position = UDim2.new(0, 56, 0, 140)
+nyhlrL.BackgroundTransparency = 1
+nyhlrL.Font = Enum.Font.Gotham
+nyhlrL.TextSize = 16
+nyhlrL.TextXAlignment = Enum.TextXAlignment.Left
+nyhlrL.TextColor3 = Color3.fromRGB(220, 220, 230)
+nyhlrL.TextTransparency = 0
+nyhlrL.Text = string.char(65,110,116,105,45,68,105,101,58,32,79,102,102)
+nyhlrL.Parent = wmDaSF
+
+local tyoDpt = Instance.new(string.char(70,114,97,109,101))
+tyoDpt.Size = UDim2.fromOffset(40, 20)
+tyoDpt.Position = UDim2.new(0, 12, 0, 170)
+tyoDpt.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+tyoDpt.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), tyoDpt).CornerRadius = UDim.new(1, 0)
+local eYwKDn = Instance.new(string.char(85,73,83,116,114,111,107,101))
+eYwKDn.Color = Color3.fromRGB(0, 255, 150)
+eYwKDn.Thickness = 1.2
+eYwKDn.Transparency = 0.8
+eYwKDn.Parent = tyoDpt
+tyoDpt.Parent = wmDaSF
+local eUlyfW = Instance.new(string.char(70,114,97,109,101))
+eUlyfW.Size = UDim2.fromOffset(16, 16)
+eUlyfW.Position = UDim2.new(0, 2, 0.5, -8)
+eUlyfW.BackgroundColor3 = Color3.fromRGB(240, 240, 245)
+eUlyfW.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), eUlyfW).CornerRadius = UDim.new(1, 0)
+local JdBYaM = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+JdBYaM.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+JdBYaM.Rotation = 45
+JdBYaM.Parent = eUlyfW
+local WVxzGh = Instance.new(string.char(85,73,83,116,114,111,107,101))
+WVxzGh.Color = Color3.fromRGB(0, 150, 100)
+WVxzGh.Thickness = 1.2
+WVxzGh.Transparency = 0.5
+WVxzGh.Parent = eUlyfW
+eUlyfW.Parent = tyoDpt
+
+local ZyGBLl = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+ZyGBLl.Size = UDim2.new(1, -76, 0, 20)
+ZyGBLl.Position = UDim2.new(0, 56, 0, 170)
+ZyGBLl.BackgroundTransparency = 1
+ZyGBLl.Font = Enum.Font.Gotham
+ZyGBLl.TextSize = 16
+ZyGBLl.TextXAlignment = Enum.TextXAlignment.Left
+ZyGBLl.TextColor3 = Color3.fromRGB(220, 220, 230)
+ZyGBLl.TextTransparency = 0
+ZyGBLl.Text = string.char(82,101,115,101,116,32,66,116,110,58,32,79,102,102)
+ZyGBLl.Parent = wmDaSF
+
+local ACKFZa = Instance.new(string.char(70,114,97,109,101))
+ACKFZa.Size = UDim2.fromOffset(40, 20)
+ACKFZa.Position = UDim2.new(0, 12, 0, 200)
+ACKFZa.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+ACKFZa.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), ACKFZa).CornerRadius = UDim.new(1, 0)
+local FNzvMD = Instance.new(string.char(85,73,83,116,114,111,107,101))
+FNzvMD.Color = Color3.fromRGB(0, 255, 150)
+FNzvMD.Thickness = 1.2
+FNzvMD.Transparency = 0.8
+FNzvMD.Parent = ACKFZa
+ACKFZa.Parent = wmDaSF
+local dzVrlP = Instance.new(string.char(70,114,97,109,101))
+dzVrlP.Size = UDim2.fromOffset(16, 16)
+dzVrlP.Position = UDim2.new(0, 2, 0.5, -8)
+dzVrlP.BackgroundColor3 = Color3.fromRGB(240, 240, 245)
+dzVrlP.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), dzVrlP).CornerRadius = UDim.new(1, 0)
+local DqmtTa = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+DqmtTa.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+DqmtTa.Rotation = 45
+DqmtTa.Parent = dzVrlP
+local BEWnHS = Instance.new(string.char(85,73,83,116,114,111,107,101))
+BEWnHS.Color = Color3.fromRGB(0, 150, 100)
+BEWnHS.Thickness = 1.2
+BEWnHS.Transparency = 0.5
+BEWnHS.Parent = dzVrlP
+dzVrlP.Parent = ACKFZa
+
+local Xyrkzo = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+Xyrkzo.Size = UDim2.new(1, -76, 0, 20)
+Xyrkzo.Position = UDim2.new(0, 56, 0, 200)
+Xyrkzo.BackgroundTransparency = 1
+Xyrkzo.Font = Enum.Font.Gotham
+Xyrkzo.TextSize = 16
+Xyrkzo.TextXAlignment = Enum.TextXAlignment.Left
+Xyrkzo.TextColor3 = Color3.fromRGB(220, 220, 230)
+Xyrkzo.TextTransparency = 0
+Xyrkzo.Text = string.char(84,80,32,66,116,110,58,32,79,102,102)
+Xyrkzo.Parent = wmDaSF
+
+local heLklP = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+heLklP.Size = UDim2.new(1, -76, 0, 20)
+heLklP.Position = UDim2.new(0, 56, 0, 230)
+heLklP.BackgroundTransparency = 1
+heLklP.Font = Enum.Font.Gotham
+heLklP.TextSize = 16
+heLklP.TextXAlignment = Enum.TextXAlignment.Left
+heLklP.TextColor3 = Color3.fromRGB(220, 220, 230)
+heLklP.TextTransparency = 0
+heLklP.Text = string.char(84,80,32,68,105,115,116,58,32,49,48)
+heLklP.Parent = wmDaSF
+
+local ZFjgaN = Instance.new(string.char(70,114,97,109,101))
+ZFjgaN.Size = UDim2.new(1, -24, 0, 6)
+ZFjgaN.Position = UDim2.new(0, 12, 0, 254)
+ZFjgaN.BackgroundColor3 = Color3.fromRGB(50, 50, 60)
+ZFjgaN.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), ZFjgaN).CornerRadius = UDim.new(0, 3)
+ZFjgaN.Parent = wmDaSF
+local XNoaFv = Instance.new(string.char(70,114,97,109,101))
+XNoaFv.Size = UDim2.new(0.1, 0, 1, 0) 
+XNoaFv.BackgroundColor3 = Color3.fromRGB(0, 255, 150)
+XNoaFv.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), XNoaFv).CornerRadius = UDim.new(0, 3)
+local EuSyTO = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+EuSyTO.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+EuSyTO.Rotation = 45
+EuSyTO.Parent = XNoaFv
+XNoaFv.Parent = ZFjgaN
+local UkgCCq = Instance.new(string.char(70,114,97,109,101))
+UkgCCq.Size = UDim2.fromOffset(12, 12)
+UkgCCq.AnchorPoint = Vector2.new(0.5, 0.5)
+UkgCCq.Position = UDim2.new(XNoaFv.Size.X.Scale, 0, 0.5, 0)
+UkgCCq.BackgroundColor3 = Color3.fromRGB(240, 240, 245)
+UkgCCq.BackgroundTransparency = 0
+Instance.new(string.char(85,73,67,111,114,110,101,114), UkgCCq).CornerRadius = UDim.new(1, 0)
+local ENzcZo = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+ENzcZo.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+ENzcZo.Rotation = 45
+ENzcZo.Parent = UkgCCq
+UkgCCq.Parent = ZFjgaN
+
+local nXZvPn = Instance.new(string.char(70,114,97,109,101))
+nXZvPn.Size = UDim2.new(1, 0, 0, 30)
+nXZvPn.Position = UDim2.new(0, 0, 0, 286)
+nXZvPn.BackgroundTransparency = 1
+nXZvPn.Parent = HBXKoI
+
+local JweNRG = Instance.new(string.char(73,109,97,103,101,66,117,116,116,111,110))
+JweNRG.Size = UDim2.fromOffset(24, 24)
+JweNRG.Position = UDim2.new(0, 12, 0, 3)
+JweNRG.BackgroundTransparency = 1
+JweNRG.Image = string.char(114,98,120,97,115,115,101,116,105,100,58,47,47,54,48,50,54,53,54,56,49,57,56) 
+JweNRG.Parent = nXZvPn
+
+local wlaXDi = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+wlaXDi.Size = UDim2.new(1, -48, 1, 0)
+wlaXDi.Position = UDim2.new(0, 40, 0, 0)
+wlaXDi.BackgroundTransparency = 1
+wlaXDi.Font = Enum.Font.Gotham
+wlaXDi.TextSize = 14
+wlaXDi.TextXAlignment = Enum.TextXAlignment.Left
+wlaXDi.TextColor3 = Color3.fromRGB(220, 220, 230)
+wlaXDi.TextTransparency = 0
+wlaXDi.Text = string.char(100,105,115,99,111,114,100,46,103,103,47,88,68,53,87,78,115,70,70,116,66)
+wlaXDi.Parent = nXZvPn
+
+local qYEOxs = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+qYEOxs.Size = UDim2.fromOffset(80, 30)
+qYEOxs.Position = UDim2.fromScale(0.98, 0.5)
+qYEOxs.AnchorPoint = Vector2.new(1, 0.5)
+qYEOxs.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+qYEOxs.Text = string.char(82,101,115,101,116)
+qYEOxs.Font = Enum.Font.GothamBold
+qYEOxs.TextSize = 14
+qYEOxs.TextColor3 = Color3.fromRGB(240, 240, 245)
+qYEOxs.Visible = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), qYEOxs).CornerRadius = UDim.new(0, 8)
+local nuEBek = Instance.new(string.char(85,73,83,116,114,111,107,101))
+nuEBek.Color = Color3.fromRGB(0, 255, 150)
+nuEBek.Thickness = 1.2
+nuEBek.Transparency = 0.8
+nuEBek.Parent = qYEOxs
+local EDmJmg = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+EDmJmg.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+EDmJmg.Rotation = 45
+EDmJmg.Parent = nuEBek
+qYEOxs.Parent = hdTGLl
+
+local eNrVDw = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+eNrVDw.Size = UDim2.fromOffset(80, 30)
+eNrVDw.Position = UDim2.fromScale(0.98, 0.6)
+eNrVDw.AnchorPoint = Vector2.new(1, 0.5)
+eNrVDw.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+eNrVDw.Text = string.char(84,80,32,70,111,114,119,97,114,100)
+eNrVDw.Font = Enum.Font.GothamBold
+eNrVDw.TextSize = 14
+eNrVDw.TextColor3 = Color3.fromRGB(240, 240, 245)
+eNrVDw.Visible = false
+Instance.new(string.char(85,73,67,111,114,110,101,114), eNrVDw).CornerRadius = UDim.new(0, 8)
+local oceeIu = Instance.new(string.char(85,73,83,116,114,111,107,101))
+oceeIu.Color = Color3.fromRGB(0, 255, 150)
+oceeIu.Thickness = 1.2
+oceeIu.Transparency = 0.8
+oceeIu.Parent = eNrVDw
+local FDmgAF = Instance.new(string.char(85,73,71,114,97,100,105,101,110,116))
+FDmgAF.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 255, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 150, 255))
+})
+FDmgAF.Rotation = 45
+FDmgAF.Parent = oceeIu
+eNrVDw.Parent = hdTGLl
+local ayhHkf = false
+local iFmmUx, maxSpeed = 4, 300
+local lyhSYA = false
+local qVgeYE = false
+local XviNIU = false
+local oCwWeY = false
+local NcTrNB = false
+local BIkQBB = false
+local WfsvhI = 28
+local PvSGUD = WfsvhI
+local ZhKSUh, maxTpDistance = 1, 100
+local gdodRn = 10
+local WbtoJY = false
+local pnYGtJ = false
+local TJuIRj = false
+local wprpSh = nil
+local nnpkeG = nil
+local oXSbLW = nil
+local eXiiyJ = nil
+local pyoVSY = nil
+
+local ivoLrX applyNoclip(character)
+    if not character then
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,78,111,32,99,104,97,114,97,99,116,101,114,32,102,111,117,110,100,32,102,111,114,32,110,111,99,108,105,112))
+        return
+    end
+    for _, part in ipairs(character:GetDescendants()) do
+        if part:IsA(string.char(66,97,115,101,80,97,114,116)) then
+            part.CanCollide = not qVgeYE
+        end
+    end
+end
+
+local ivoLrX repositionCharacter(character)
+    if not character then
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,78,111,32,99,104,97,114,97,99,116,101,114,32,102,111,117,110,100,32,102,111,114,32,114,101,112,111,115,105,116,105,111,110))
+        return
+    end
+    local UwZpOr = character:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+    local cWuLnk = character:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+    if not UwZpOr or not cWuLnk then
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,77,105,115,115,105,110,103,32,72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116,32,111,114,32,72,117,109,97,110,111,105,100))
+        return
+    end
+    local asrhKV = UwZpOr.Position
+    local GPUxcO = Vector3.new(0, -50, 0)
+    local WPlFKR = RaycastParams.new()
+    WPlFKR.FilterDescendantsInstances = {character}
+    WPlFKR.FilterType = Enum.RaycastFilterType.Exclude
+    local MITVTP = workspace:Raycast(asrhKV, GPUxcO, WPlFKR)
+    if MITVTP then
+        local VNSthQ = MITVTP.Position + Vector3.new(0, cWuLnk.HipHeight + 0.5, 0)
+        UwZpOr.CFrame = CFrame.new(VNSthQ)
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,82,101,112,111,115,105,116,105,111,110,101,100,32,99,104,97,114,97,99,116,101,114,32,116,111), VNSthQ)
+    else
+        UwZpOr.CFrame = UwZpOr.CFrame + Vector3.new(0, 2, 0)
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,78,111,32,103,114,111,117,110,100,32,102,111,117,110,100,44,32,109,111,118,101,100,32,117,112,32,115,108,105,103,104,116,108,121))
+    end
+    if UwZpOr:IsA(string.char(66,97,115,101,80,97,114,116)) then
+        UwZpOr.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+        UwZpOr.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+    end
+end
+
+local ivoLrX teleportForward()
+    if not YEXsRQ.Character or not YEXsRQ.Character:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116)) then
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,84,80,32,70,111,114,119,97,114,100,32,102,97,105,108,101,100,58,32,78,111,32,99,104,97,114,97,99,116,101,114,47,72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+        return
+    end
+    local UwZpOr = YEXsRQ.Character.HumanoidRootPart
+    local cWuLnk = YEXsRQ.Character:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+    if not cWuLnk then
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,84,80,32,70,111,114,119,97,114,100,32,102,97,105,108,101,100,58,32,78,111,32,72,117,109,97,110,111,105,100))
+        return
+    end
+    local xNuAyI = workspace.CurrentCamera
+    local yUvVRZ = xNuAyI.CFrame.LookVector
+    yUvVRZ = Vector3.new(yUvVRZ.X, 0, yUvVRZ.Z).Unit
+    local CejIOk = gdodRn
+    local PaTMWm = math.max(1, math.floor(CejIOk / 2))
+    local JiRbRe = CejIOk / PaTMWm
+    local lgegoP = UwZpOr.Position
+    local cnBoXi = lgegoP + yUvVRZ * CejIOk
+    local WPlFKR = RaycastParams.new()
+    WPlFKR.FilterDescendantsInstances = {YEXsRQ.Character}
+    WPlFKR.FilterType = Enum.RaycastFilterType.Exclude
+    local JJyOfQ = workspace:Raycast(cnBoXi + Vector3.new(0, 5, 0), Vector3.new(0, -10, 0), WPlFKR)
+    if JJyOfQ then
+        cnBoXi = Vector3.new(cnBoXi.X, JJyOfQ.Position.Y + cWuLnk.HipHeight + 0.5, cnBoXi.Z)
+    else
+        cnBoXi = Vector3.new(cnBoXi.X, cnBoXi.Y + cWuLnk.HipHeight + 0.5, cnBoXi.Z)
+    end
+    local HMnkNc = qVgeYE
+    if not qVgeYE then
+        qVgeYE = true
+        applyNoclip(YEXsRQ.Character)
+    end
+    local cMHMHZ = 0.02
+    local zgaNUx = (cnBoXi - lgegoP).Magnitude
+    for i = 1, PaTMWm do
+        local oQMjZH = i / PaTMWm
+        local CgAscW = lgegoP:Lerp(cnBoXi, oQMjZH)
+        UwZpOr.CFrame = CFrame.new(CgAscW) * UwZpOr.CFrame.Rotation
+        UwZpOr.AssemblyLinearVelocity = yUvVRZ * (zgaNUx / (cMHMHZ * PaTMWm)) * 0.3
+        task.wait(cMHMHZ)
+    end
+    UwZpOr.CFrame = CFrame.new(cnBoXi) * UwZpOr.CFrame.Rotation
+    UwZpOr.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+    if not HMnkNc then
+        qVgeYE = false
+        applyNoclip(YEXsRQ.Character)
+        repositionCharacter(YEXsRQ.Character)
+    end
+    print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,84,101,108,101,112,111,114,116,101,100,32,102,111,114,119,97,114,100,32,116,111), cnBoXi)
+end
+
+local ivoLrX applySpeed(character)
+    if not character then
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,78,111,32,99,104,97,114,97,99,116,101,114,32,102,111,117,110,100,32,102,111,114,32,76,75,72,89,118,73))
+        return
+    end
+    local UwZpOr = character:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+    local cWuLnk = character:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+    if not UwZpOr or not cWuLnk then
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,77,105,115,115,105,110,103,32,72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116,32,111,114,32,72,117,109,97,110,111,105,100,32,102,111,114,32,76,75,72,89,118,73))
+        return
+    end
+    
+    if pyoVSY then
+        pyoVSY:Destroy()
+        pyoVSY = nil
+    end
+    if lyhSYA then
+        
+        pyoVSY = Instance.new(string.char(66,111,100,121,86,101,108,111,99,105,116,121))
+        pyoVSY.MaxForce = Vector3.new(math.huge, 0, math.huge)
+        pyoVSY.Velocity = Vector3.new(0, 0, 0)
+        pyoVSY.Parent = UwZpOr
+        
+        cWuLnk.WalkSpeed = 0 
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,65,112,112,108,105,101,100,32,66,111,100,121,86,101,108,111,99,105,116,121,32,102,111,114,32,76,75,72,89,118,73))
+    else
+        cWuLnk.WalkSpeed = WfsvhI 
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,82,101,115,116,111,114,101,100,32,100,101,102,97,117,108,116,32,87,97,108,107,83,112,101,101,100,58), WfsvhI)
+    end
+end
+
+MyozVX.Heartbeat:Connect(ivoLrX()
+    if lyhSYA and YEXsRQ.Character and pyoVSY then
+        local UwZpOr = YEXsRQ.Character:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+        local cWuLnk = YEXsRQ.Character:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+        if UwZpOr and cWuLnk then
+            local mNTnFg = cWuLnk.MoveDirection
+            if mNTnFg.Magnitude > 0 then
+                pyoVSY.Velocity = mNTnFg * PvSGUD
+            else
+                pyoVSY.Velocity = Vector3.new(0, 0, 0)
+            end
+        end
+    end
+end)
+local ivoLrX setSpeedFromX(x)
+    local lUXsYC = math.clamp((x - PDCOEr.AbsolutePosition.X)/PDCOEr.AbsoluteSize.X, 0, 1)
+    local LKHYvI = math.floor(iFmmUx + lUXsYC*(maxSpeed - iFmmUx) + 0.5)
+    PvSGUD = LKHYvI
+    oUYnfD.Size = UDim2.new((LKHYvI - iFmmUx)/(maxSpeed - iFmmUx), 0, 1, 0)
+    HaMVcu.Position = UDim2.new(oUYnfD.Size.X.Scale, 0, 0.5, 0)
+    ExPldn.Text = string.char(83,112,101,101,100,58,32) .. LKHYvI
+    if lyhSYA and YEXsRQ.Character then
+        applySpeed(YEXsRQ.Character) 
+    end
+    print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,101,116,32,76,75,72,89,118,73,32,116,111), LKHYvI)
+end
+local ivoLrX setTpDistanceFromX(x)
+    local lUXsYC = math.clamp((x - ZFjgaN.AbsolutePosition.X)/ZFjgaN.AbsoluteSize.X, 0, 1)
+    local pjsNCq = math.floor(ZhKSUh + lUXsYC*(maxTpDistance - ZhKSUh) + 0.5)
+    gdodRn = pjsNCq
+    XNoaFv.Size = UDim2.new((pjsNCq - ZhKSUh)/(maxTpDistance - ZhKSUh), 0, 1, 0)
+    UkgCCq.Position = UDim2.new(XNoaFv.Size.X.Scale, 0, 0.5, 0)
+    heLklP.Text = string.char(84,80,32,68,105,115,116,58,32) .. pjsNCq
+    print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,101,116,32,84,80,32,68,105,115,116,97,110,99,101,32,116,111), pjsNCq)
+end
+PDCOEr.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        ayhHkf = true
+        setSpeedFromX(input.Position.X)
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,97,114,116,101,100,32,97,121,104,72,107,102,32,76,75,72,89,118,73,32,115,108,105,100,101,114))
+    end
+end)
+PDCOEr.InputEnded:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        ayhHkf = false
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,111,112,112,101,100,32,97,121,104,72,107,102,32,76,75,72,89,118,73,32,115,108,105,100,101,114))
+    end
+end)
+ZFjgaN.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        WbtoJY = true
+        setTpDistanceFromX(input.Position.X)
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,97,114,116,101,100,32,97,121,104,72,107,102,32,84,80,32,112,106,115,78,67,113,32,115,108,105,100,101,114))
+    end
+end)
+ZFjgaN.InputEnded:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        WbtoJY = false
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,111,112,112,101,100,32,97,121,104,72,107,102,32,84,80,32,112,106,115,78,67,113,32,115,108,105,100,101,114))
+    end
+end)
+MWJMfD.InputChanged:Connect(ivoLrX(input)
+    if ayhHkf and input.UserInputType == Enum.UserInputType.MouseMovement then
+        setSpeedFromX(input.Position.X)
+    elseif WbtoJY and input.UserInputType == Enum.UserInputType.MouseMovement then
+        setTpDistanceFromX(input.Position.X)
+    elseif pnYGtJ and input.UserInputType == Enum.UserInputType.MouseMovement then
+        local LbAoOx = input.Position - wprpSh
+        local hljvGg = UDim2.new(
+            nnpkeG.X.Scale,
+            nnpkeG.X.Offset + LbAoOx.X,
+            nnpkeG.Y.Scale,
+            nnpkeG.Y.Offset + LbAoOx.Y
+.now
+        )
+        qYEOxs.Position = hljvGg
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,68,114,97,103,103,105,110,103,32,114,101,115,101,116,32,98,117,116,116,111,110,32,116,111), hljvGg)
+    elseif TJuIRj and input.UserInputType == Enum.UserInputType.MouseMovement then
+        local LbAoOx = input.Position - oXSbLW
+        local hljvGg = UDim2.new(
+            eXiiyJ.X.Scale,
+            eXiiyJ.X.Offset + LbAoOx.X,
+            eXiiyJ.Y.Scale,
+            eXiiyJ.Y.Offset + LbAoOx.Y
+        )
+        eNrVDw.Position = hljvGg
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,68,114,97,103,103,105,110,103,32,84,80,32,98,117,116,116,111,110,32,116,111), hljvGg)
+    end
+end)
+
+pTiyVR.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        lyhSYA = not lyhSYA
+        local IKoZOg = lyhSYA and UDim2.new(1, -18, 0.5, -8) or UDim2.new(0, 2, 0.5, -8)
+        local lDcWDe = lyhSYA and Color3.fromRGB(0, 200, 120) or Color3.fromRGB(35, 35, 40)
+        local okKJGE = lyhSYA and 0.2 or 0.8
+        NFBDyH:Create(sNAWFx, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = IKoZOg}):Play()
+        NFBDyH:Create(pTiyVR, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = lDcWDe, BackgroundTransparency = 0}):Play()
+        NFBDyH:Create(qxoJSn, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = okKJGE}):Play()
+        NFBDyH:Create(VtZyXS, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = lyhSYA and 0.3 or 0.5}):Play()
+        ExPldn.Text = string.char(83,112,101,101,100,58,32) .. PvSGUD
+        if YEXsRQ.Character then
+            applySpeed(YEXsRQ.Character)
+        end
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,112,101,101,100,32,116,111,103,103,108,101,58), lyhSYA and string.char(79,110) or string.char(79,102,102))
+    end
+end)
+
+PbaRyw.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        qVgeYE = not qVgeYE
+        local IKoZOg = qVgeYE and UDim2.new(1, -18, 0.5, -8) or UDim2.new(0, 2, 0.5, -8)
+        local lDcWDe = qVgeYE and Color3.fromRGB(0, 200, 120) or Color3.fromRGB(35, 35, 40)
+        local okKJGE = qVgeYE and 0.2 or 0.8
+        NFBDyH:Create(ABrdRM, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = IKoZOg}):Play()
+        NFBDyH:Create(PbaRyw, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = lDcWDe, BackgroundTransparency = 0}):Play()
+        NFBDyH:Create(aYABVz, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = okKJGE}):Play()
+        NFBDyH:Create(jsXqKf, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = qVgeYE and 0.3 or 0.5}):Play()
+        qMRzmj.Text = string.char(78,111,99,108,105,112,58,32) .. (qVgeYE and string.char(79,110) or string.char(79,102,102))
+        applyNoclip(YEXsRQ.Character)
+        if not qVgeYE then
+            repositionCharacter(YEXsRQ.Character)
+        end
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,78,111,99,108,105,112,32,116,111,103,103,108,101,58), qVgeYE and string.char(79,110) or string.char(79,102,102))
+    end
+end)
+
+VIbbGf.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        XviNIU = not XviNIU
+        local IKoZOg = XviNIU and UDim2.new(1, -18, 0.5, -8) or UDim2.new(0, 2, 0.5, -8)
+        local lDcWDe = XviNIU and Color3.fromRGB(0, 200, 120) or Color3.fromRGB(35, 35, 40)
+        local okKJGE = XviNIU and 0.2 or 0.8
+        NFBDyH:Create(yrBhIu, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = IKoZOg}):Play()
+        NFBDyH:Create(VIbbGf, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = lDcWDe, BackgroundTransparency = 0}):Play()
+        NFBDyH:Create(DudWfG, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = okKJGE}):Play()
+        NFBDyH:Create(GHwjfS, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = XviNIU and 0.3 or 0.5}):Play()
+        CjuNeJ.Text = string.char(73,110,102,32,74,117,109,112,58,32) .. (XviNIU and string.char(79,110) or string.char(79,102,102))
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,73,110,102,105,110,105,116,101,32,74,117,109,112,32,116,111,103,103,108,101,58), XviNIU and string.char(79,110) or string.char(79,102,102))
+    end
+end)
+
+erelQv.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        oCwWeY = not oCwWeY
+        local IKoZOg = oCwWeY and UDim2.new(1, -18, 0.5, -8) or UDim2.new(0, 2, 0.5, -8)
+        local lDcWDe = oCwWeY and Color3.fromRGB(0, 200, 120) or Color3.fromRGB(35, 35, 40)
+        local okKJGE = oCwWeY and 0.2 or 0.8
+        NFBDyH:Create(lNKoDr, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = IKoZOg}):Play()
+        NFBDyH:Create(erelQv, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = lDcWDe, BackgroundTransparency = 0}):Play()
+        NFBDyH:Create(IyfwKs, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = okKJGE}):Play()
+        NFBDyH:Create(hDcwuo, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = oCwWeY and 0.3 or 0.5}):Play()
+        nyhlrL.Text = string.char(65,110,116,105,45,68,105,101,58,32) .. (oCwWeY and string.char(79,110) or string.char(79,102,102))
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,65,110,116,105,45,68,105,101,32,116,111,103,103,108,101,58), oCwWeY and string.char(79,110) or string.char(79,102,102))
+    end
+end)
+
+tyoDpt.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        NcTrNB = not NcTrNB
+        qYEOxs.Visible = NcTrNB
+        local IKoZOg = NcTrNB and UDim2.new(1, -18, 0.5, -8) or UDim2.new(0, 2, 0.5, -8)
+        local lDcWDe = NcTrNB and Color3.fromRGB(0, 200, 120) or Color3.fromRGB(35, 35, 40)
+        local okKJGE = NcTrNB and 0.2 or 0.8
+        NFBDyH:Create(eUlyfW, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = IKoZOg}):Play()
+        NFBDyH:Create(tyoDpt, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = lDcWDe, BackgroundTransparency = 0}):Play()
+        NFBDyH:Create(eYwKDn, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = okKJGE}):Play()
+        NFBDyH:Create(WVxzGh, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = NcTrNB and 0.3 or 0.5}):Play()
+        ZyGBLl.Text = string.char(82,101,115,101,116,32,66,116,110,58,32) .. (NcTrNB and string.char(79,110) or string.char(79,102,102))
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,82,101,115,101,116,32,66,117,116,116,111,110,32,116,111,103,103,108,101,58), NcTrNB and string.char(79,110) or string.char(79,102,102))
+    end
+end)
+
+ACKFZa.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        BIkQBB = not BIkQBB
+        eNrVDw.Visible = BIkQBB
+        local IKoZOg = BIkQBB and UDim2.new(1, -18, 0.5, -8) or UDim2.new(0, 2, 0.5, -8)
+        local lDcWDe = BIkQBB and Color3.fromRGB(0, 200, 120) or Color3.fromRGB(35, 35, 40)
+        local okKJGE = BIkQBB and 0.2 or 0.8
+        NFBDyH:Create(dzVrlP, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = IKoZOg}):Play()
+        NFBDyH:Create(ACKFZa, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = lDcWDe, BackgroundTransparency = 0}):Play()
+        NFBDyH:Create(FNzvMD, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = okKJGE}):Play()
+        NFBDyH:Create(BEWnHS, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = BIkQBB and 0.3 or 0.5}):Play()
+        Xyrkzo.Text = string.char(84,80,32,66,116,110,58,32) .. (BIkQBB and string.char(79,110) or string.char(79,102,102))
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,84,80,32,70,111,114,119,97,114,100,32,66,117,116,116,111,110,32,116,111,103,103,108,101,58), BIkQBB and string.char(79,110) or string.char(79,102,102))
+    end
+end)
+
+qYEOxs.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        pnYGtJ = true
+        wprpSh = input.Position
+        nnpkeG = qYEOxs.Position
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,97,114,116,101,100,32,97,121,104,72,107,102,32,114,101,115,101,116,32,98,117,116,116,111,110))
+    end
+end)
+qYEOxs.InputEnded:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        pnYGtJ = false
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,111,112,112,101,100,32,97,121,104,72,107,102,32,114,101,115,101,116,32,98,117,116,116,111,110))
+    end
+end)
+
+eNrVDw.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        TJuIRj = true
+        oXSbLW = input.Position
+        eXiiyJ = eNrVDw.Position
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,97,114,116,101,100,32,97,121,104,72,107,102,32,84,80,32,70,111,114,119,97,114,100,32,98,117,116,116,111,110))
+    end
+end)
+eNrVDw.InputEnded:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        TJuIRj = false
+        teleportForward()
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,84,80,32,70,111,114,119,97,114,100,32,98,117,116,116,111,110,32,99,108,105,99,107,101,100))
+    end
+end)
+
+local ivoLrX onCharacterAdded(character)
+    if not character then
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,78,111,32,99,104,97,114,97,99,116,101,114,32,112,114,111,118,105,100,101,100,32,116,111,32,111,110,67,104,97,114,97,99,116,101,114,65,100,100,101,100))
+        return
+    end
+    applyNoclip(character)
+    applySpeed(character)
+    if not qVgeYE then
+        repositionCharacter(character)
+    end
+    character.DescendantAdded:Connect(ivoLrX(descendant)
+        if qVgeYE and descendant:IsA(string.char(66,97,115,101,80,97,114,116)) then
+            descendant.CanCollide = false
+        elseif not qVgeYE and descendant:IsA(string.char(66,97,115,101,80,97,114,116)) then
+            descendant.CanCollide = true
+        end
+    end)
+    print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,67,104,97,114,97,99,116,101,114,32,97,100,100,101,100,44,32,97,112,112,108,105,101,100,32,110,111,99,108,105,112,32,97,110,100,32,76,75,72,89,118,73))
+end
+YEXsRQ.CharacterAdded:Connect(onCharacterAdded)
+if YEXsRQ.Character then
+    onCharacterAdded(YEXsRQ.Character)
+end
+
+MyozVX.Heartbeat:Connect(ivoLrX()
+    if qVgeYE and YEXsRQ.Character then
+        applyNoclip(YEXsRQ.Character)
+    end
+    if oCwWeY and YEXsRQ.Character then
+        local cWuLnk = YEXsRQ.Character:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+        if cWuLnk and cWuLnk.Health <= 0 then
+            cWuLnk.Health = cWuLnk.MaxHealth
+            print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,65,110,116,105,45,68,105,101,32,116,114,105,103,103,101,114,101,100,44,32,114,101,115,116,111,114,101,100,32,104,101,97,108,116,104,32,116,111), cWuLnk.MaxHealth)
+        end
+    end
+end)
+
+MWJMfD.JumpRequest:Connect(ivoLrX()
+    if XviNIU and YEXsRQ.Character then
+        local cWuLnk = YEXsRQ.Character:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+        if cWuLnk then
+            cWuLnk:ChangeState(Enum.HumanoidStateType.Jumping)
+            print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,73,110,102,105,110,105,116,101,32,74,117,109,112,32,116,114,105,103,103,101,114,101,100))
+        end
+    end
+end)
+
+qYEOxs.MouseButton1Click:Connect(ivoLrX()
+    if oCwWeY and YEXsRQ.Character then
+        local cWuLnk = YEXsRQ.Character:FindFirstChildOfClass(string.char(72,117,109,97,110,111,105,100))
+        if cWuLnk then
+            oCwWeY = false
+            nyhlrL.Text = string.char(65,110,116,105,45,68,105,101,58,32,79,102,102)
+            local IKoZOg = UDim2.new(0, 2, 0.5, -8)
+            local lDcWDe = Color3.fromRGB(35, 35, 40)
+            local okKJGE = 0.8
+            NFBDyH:Create(lNKoDr, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = IKoZOg}):Play()
+            NFBDyH:Create(erelQv, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = lDcWDe, BackgroundTransparency = 0}):Play()
+            NFBDyH:Create(IyfwKs, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = okKJGE}):Play()
+            NFBDyH:Create(hDcwuo, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = 0.5}):Play()
+            cWuLnk.Health = 0
+            print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,82,101,115,101,116,32,116,114,105,103,103,101,114,101,100,44,32,65,110,116,105,45,68,105,101,32,100,105,115,97,98,108,101,100,44,32,104,101,97,108,116,104,32,115,101,116,32,116,111,32,48))
+            wait(1)
+            oCwWeY = true
+            nyhlrL.Text = string.char(65,110,116,105,45,68,105,101,58,32,79,110)
+            IKoZOg = UDim2.new(1, -18, 0.5, -8)
+            lDcWDe = Color3.fromRGB(0, 200, 120)
+            okKJGE = 0.2
+            NFBDyH:Create(lNKoDr, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = IKoZOg}):Play()
+            NFBDyH:Create(erelQv, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = lDcWDe, BackgroundTransparency = 0}):Play()
+            NFBDyH:Create(IyfwKs, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = okKJGE}):Play()
+            NFBDyH:Create(hDcwuo, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Transparency = 0.3}):Play()
+            print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,65,110,116,105,45,68,105,101,32,114,101,45,101,110,97,98,108,101,100,32,97,102,116,101,114,32,114,101,115,101,116))
+        end
+    end
+end)
+
+local uvBxjr = false
+local LwZnId = nil
+local kTcpCA = nil
+klmTiP.InputBegan:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        uvBxjr = true
+        LwZnId = input.Position
+        kTcpCA = masyKh.Position
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,97,114,116,101,100,32,97,121,104,72,107,102,32,109,97,105,110,32,109,101,110,117))
+    end
+end)
+klmTiP.InputEnded:Connect(ivoLrX(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        uvBxjr = false
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,116,111,112,112,101,100,32,97,121,104,72,107,102,32,109,97,105,110,32,109,101,110,117))
+    end
+end)
+MWJMfD.InputChanged:Connect(ivoLrX(input)
+    if uvBxjr and input.UserInputType == Enum.UserInputType.MouseMovement then
+        local LbAoOx = input.Position - LwZnId
+        local hljvGg = UDim2.new(
+            kTcpCA.X.Scale,
+            kTcpCA.X.Offset + LbAoOx.X,
+            kTcpCA.Y.Scale,
+            kTcpCA.Y.Offset + LbAoOx.Y
+        )
+        masyKh.Position = hljvGg
+    end
+end)
+
+local OToESy = false
+MWJMfD.InputBegan:Connect(ivoLrX(input, gpe)
+    if gpe then return end
+    if input.KeyCode == Enum.KeyCode.G then
+        OToESy = not OToESy
+        masyKh.Visible = OToESy
+        if OToESy and qVgeYE and YEXsRQ.Character then
+            applyNoclip(YEXsRQ.Character)
+        elseif OToESy and not qVgeYE and YEXsRQ.Character then
+            repositionCharacter(YEXsRQ.Character)
+        end
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,77,101,110,117,32,116,111,103,103,108,101,58), OToESy and string.char(79,112,101,110,101,100) or string.char(67,108,111,115,101,100))
+    end
+end)
+
+
+VioIDP.MouseButton1Click:Connect(ivoLrX()
+    if NvFkjk.Text == string.char(115,51,110,122) then
+        JYyIMe:Destroy()
+        masyKh.Visible = true
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,75,101,121,32,97,99,99,101,112,116,101,100,44,32,109,101,110,117,32,117,110,108,111,99,107,101,100))
+    else
+        iflVhp.Text = string.char(73,110,118,97,108,105,100,32,75,101,121)
+        print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,73,110,118,97,108,105,100,32,107,101,121,32,101,110,116,101,114,101,100))
+    end
+end)
+
+
+JweNRG.MouseButton1Click:Connect(ivoLrX()
+    setclipboard(string.char(104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,103,103,47,88,68,53,87,78,115,70,70,116,66))
+    print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,67,111,112,105,101,100,32,68,105,115,99,111,114,100,32,105,110,118,105,116,101,32,116,111,32,99,108,105,112,98,111,97,114,100,58,32,104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,103,103,47,88,68,53,87,78,115,70,70,116,66))
+end)
+
+
+wyBSde.MouseButton1Click:Connect(ivoLrX()
+    setclipboard(string.char(104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,103,103,47,88,68,53,87,78,115,70,70,116,66))
+    print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,67,111,112,105,101,100,32,68,105,115,99,111,114,100,32,105,110,118,105,116,101,32,116,111,32,99,108,105,112,98,111,97,114,100,32,102,114,111,109,32,107,101,121,32,109,101,110,117,58,32,104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,103,103,47,88,68,53,87,78,115,70,70,116,66))
+end)
+
+print(string.char(91,72,117,98,115,101,110,115,101,77,101,110,117,93,32,83,99,114,105,112,116,32,108,111,97,100,101,100,32,115,117,99,99,101,115,115,102,117,108,108,121))
+
+]=])()
